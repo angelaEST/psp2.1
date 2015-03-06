@@ -12,9 +12,9 @@ package edu.uniandes.ecos.mundo;
 public class Integracion {
     
     private int numSeg;
-    private double valX;
-    private double dof;
-    private double p;
+    private Double valX;
+    private Double dof;
+    private Double p;
  
     
     /**
@@ -53,7 +53,7 @@ public class Integracion {
      * Método por el cual se obtiene el valor para dof
      * @return 
      */
-    public double getDof() {
+    public Double getDof() {
         return dof;
     }
 
@@ -61,7 +61,7 @@ public class Integracion {
      * Método a partir del cual se  envía  el valor para dof
      * @param dof 
      */
-    public void setDof(double dof) {
+    public void setDof(Double dof) {
         this.dof = dof;
     }
 
@@ -69,7 +69,7 @@ public class Integracion {
      * Método por el cual se obtiene el valor para p
      * @return 
      */
-    public double getP() {
+    public Double getP() {
         return p;
     }
 
@@ -77,7 +77,7 @@ public class Integracion {
      * Método a partir del cual se  envía  el valor para p
      * @param p 
      */
-    public void setP(double p) {
+    public void setP(Double p) {
         this.p = p;
     }
     

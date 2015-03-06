@@ -81,8 +81,7 @@ public class Calculo {
     }
 
     /**
-     * Método que retorna el valor de x resultante del aplicar ajuste sobre distribución en p para
-     * integración numérica
+     * Método que retorna el valor para x  resultante del aplicar ajuste con distribución en p para integración numérica
      *
      * @param integracion El Objeto Integracion tiene los atributos capturados
      * por consola
