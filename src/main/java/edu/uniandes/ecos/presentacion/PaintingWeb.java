@@ -29,7 +29,7 @@ public class PaintingWeb {
 
         PrintWriter pw = resp.getWriter();
         pw.write("<html>");
-        pw.println("<h1>PSP2 INTEGRACION NUMERICA!</h1>");
+        pw.println("<h1>PSP2.1 INTEGRACION NUMERICA!</h1>");
 
         pw.println("<body><form action=\"integracion\" method=\"post\">");
         pw.println("</br><table><tr><td>Valor para p :</td>");
