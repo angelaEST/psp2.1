@@ -36,7 +36,7 @@ public class PaintingWeb {
         pw.println("<td><input type=\"text\" id=\"cantidadX\" name=\"valp\"></td></tr></br>");
         pw.println("</br><tr><td>Valor para número de segmentos :</td>");
         pw.println("<td><input type=\"text\" id=\"cantidadseg\" name=\"segmento\"></td></tr></br>");
-        pw.println("</br><tr><td><Use como separador (.) el punto. Valor para dof :</td>");
+        pw.println("</br><tr><td>Use como separador el punto. Valor para dof : </td>");
         pw.println("<td><input type=\"text\" id=\"cantidaddof\" name=\"dof\"></td></tr></table></br>");
         pw.println("<input type=\"submit\" id=\"acepta\" name=\"acepta\" value=\"Calcular x esperado\">");
         pw.println("</form></body>");
