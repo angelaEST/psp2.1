@@ -23,5 +23,5 @@ Ejecución Heroku
 
 java -cp target/classes:target/dependency/* edu.uniandes.ecos.controlador.IntegracionControlador
 
-
+https://pspintegra.herokuapp.com/
 
