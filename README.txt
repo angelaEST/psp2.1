@@ -14,20 +14,14 @@ git clone https://github.com/angelaEST/psp2.1.git
 
 Heroku
 
-
+heroku git:clone -a pspintegra
 
 Para ejecutar con resultados por consola:
 
-
+java -cp target/psp2.1-1.0-SNAPSHOT.jar edu.uniandes.ecos.controlador.App
 Ejecución Heroku
 
-
-
-
-El archivo valores.txt contiene la lista de promedios de lineas de código por método con las 
-que se ajustarán las medidas solicitadas.
-
-Ruta del arhivo: psp1_1\src\main\resources
+java -cp target/classes:target/dependency/* edu.uniandes.ecos.controlador.IntegracionControlador
 
 
 
